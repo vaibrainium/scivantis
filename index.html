@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Scivantis — Expert scientific consultancy delivering research-driven insights across life sciences, environmental science, data analytics, and more."
+    />
+    <title>Scivantis | Scientific Consultancy</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ========== NAVIGATION ========== -->
+    <header class="site-header" id="site-header">
+      <nav class="nav container">
+        <a href="#hero" class="nav__logo">
+          <span class="nav__logo-icon">⚗</span>
+          <span class="nav__logo-text">Scivantis</span>
+        </a>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="#services" class="nav__link">Services</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#team" class="nav__link">Team</a></li>
+          <li><a href="#process" class="nav__link">Process</a></li>
+          <li><a href="#contact" class="nav__link nav__link--cta">Contact Us</a></li>
+        </ul>
+        <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- ========== HERO ========== -->
+      <section class="hero" id="hero">
+        <div class="hero__bg">
+          <div class="hero__particles" id="particles"></div>
+        </div>
+        <div class="container hero__content">
+          <span class="hero__badge">Scientific Excellence Since 2010</span>
+          <h1 class="hero__headline">
+            Transforming Science<br />
+            Into <span class="hero__highlight">Strategic Advantage</span>
+          </h1>
+          <p class="hero__subtext">
+            Scivantis bridges the gap between cutting-edge research and real-world
+            decision-making. We provide expert consultancy across life sciences,
+            environmental science, data analytics, and regulatory affairs.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Start a Project</a>
+            <a href="#services" class="btn btn--outline">Explore Services</a>
+          </div>
+          <div class="hero__stats">
+            <div class="stat">
+              <span class="stat__number" data-target="250">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Projects Completed</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="40">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Scientific Experts</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="30">0</span><span class="stat__suffix">+</span>
+              <span class="stat__label">Countries Served</span>
+            </div>
+            <div class="stat">
+              <span class="stat__number" data-target="98">0</span><span class="stat__suffix">%</span>
+              <span class="stat__label">Client Satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__scroll-hint">
+          <span>Scroll to explore</span>
+          <div class="hero__scroll-arrow"></div>
+        </div>
+      </section>
+
+      <!-- ========== SERVICES ========== -->
+      <section class="section services" id="services">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">What We Do</span>
+            <h2 class="section__title">Our Core Services</h2>
+            <p class="section__subtitle">
+              Comprehensive scientific consultancy tailored to your industry's challenges
+              and regulatory landscape.
+            </p>
+          </div>
+          <div class="services__grid">
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">🔬</div>
+              <h3 class="service-card__title">Life Sciences</h3>
+              <p class="service-card__text">
+                Clinical trial design, biomarker discovery, drug development
+                strategy, and translational medicine consulting for pharmaceutical
+                and biotech clients.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">🌿</div>
+              <h3 class="service-card__title">Environmental Science</h3>
+              <p class="service-card__text">
+                Environmental impact assessments, ecological risk analysis,
+                sustainability strategy, and climate science advisory for
+                industry and government.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">📊</div>
+              <h3 class="service-card__title">Data Analytics & AI</h3>
+              <p class="service-card__text">
+                Advanced statistical modelling, machine learning model development,
+                and scientific data pipeline architecture for research-intensive
+                organisations.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">📋</div>
+              <h3 class="service-card__title">Regulatory Affairs</h3>
+              <p class="service-card__text">
+                Regulatory submission strategy, dossier preparation, and
+                compliance guidance for FDA, EMA, and global health authority
+                submissions.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">⚗️</div>
+              <h3 class="service-card__title">Materials Science</h3>
+              <p class="service-card__text">
+                Advanced materials characterisation, formulation development,
+                and materials selection support for aerospace, automotive, and
+                manufacturing sectors.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+            <div class="service-card" data-reveal>
+              <div class="service-card__icon">🧬</div>
+              <h3 class="service-card__title">Genomics & Bioinformatics</h3>
+              <p class="service-card__text">
+                Next-generation sequencing analysis, genomic data interpretation,
+                and bioinformatics pipeline development for precision medicine
+                and agricultural genomics.
+              </p>
+              <a href="#contact" class="service-card__link">Learn more →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== ABOUT ========== -->
+      <section class="section about" id="about">
+        <div class="container about__inner">
+          <div class="about__visual" data-reveal>
+            <div class="about__image-frame">
+              <div class="about__image-placeholder">
+                <div class="about__molecule"></div>
+              </div>
+            </div>
+          </div>
+          <div class="about__content" data-reveal>
+            <span class="section__tag">About Scivantis</span>
+            <h2 class="section__title">Science-First Consultancy</h2>
+            <p class="about__text">
+              Founded in 2010, Scivantis has grown from a small team of academic
+              scientists into a globally recognised consultancy. We believe
+              that rigorous scientific thinking is the most powerful tool for
+              solving complex business and societal challenges.
+            </p>
+            <p class="about__text">
+              Our team holds PhDs and advanced degrees across more than 15 scientific
+              disciplines. We combine deep domain expertise with practical commercial
+              experience to deliver recommendations that are both scientifically
+              sound and actionable.
+            </p>
+            <ul class="about__pillars">
+              <li class="pillar">
+                <span class="pillar__icon">✓</span>
+                <div>
+                  <strong>Peer-reviewed rigour</strong> — every recommendation is
+                  grounded in the latest published evidence.
+                </div>
+              </li>
+              <li class="pillar">
+                <span class="pillar__icon">✓</span>
+                <div>
+                  <strong>Interdisciplinary teams</strong> — we assemble the right
+                  mix of expertise for every project.
+                </div>
+              </li>
+              <li class="pillar">
+                <span class="pillar__icon">✓</span>
+                <div>
+                  <strong>Confidentiality guaranteed</strong> — strict NDAs and
+                  data governance on every engagement.
+                </div>
+              </li>
+            </ul>
+            <a href="#contact" class="btn btn--primary">Partner With Us</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== TEAM ========== -->
+      <section class="section team" id="team">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Our Experts</span>
+            <h2 class="section__title">Meet the Team</h2>
+            <p class="section__subtitle">
+              World-class scientists and domain experts committed to your success.
+            </p>
+          </div>
+          <div class="team__grid">
+            <div class="team-card" data-reveal>
+              <div class="team-card__avatar team-card__avatar--1">DR</div>
+              <h3 class="team-card__name">Dr. Diana Reyes</h3>
+              <p class="team-card__role">Founder & CEO</p>
+              <p class="team-card__bio">
+                PhD in Molecular Biology (MIT). 20+ years in pharma R&D and
+                scientific strategy. Former Head of Research at BioNova Global.
+              </p>
+              <div class="team-card__tags">
+                <span class="tag">Molecular Biology</span>
+                <span class="tag">Strategy</span>
+              </div>
+            </div>
+            <div class="team-card" data-reveal>
+              <div class="team-card__avatar team-card__avatar--2">JH</div>
+              <h3 class="team-card__name">Dr. James Harlow</h3>
+              <p class="team-card__role">Head of Environmental Science</p>
+              <p class="team-card__bio">
+                PhD in Environmental Chemistry (Oxford). Specialist in ecological
+                risk assessment and climate impact modelling for Fortune 500 firms.
+              </p>
+              <div class="team-card__tags">
+                <span class="tag">Ecology</span>
+                <span class="tag">Climate Science</span>
+              </div>
+            </div>
+            <div class="team-card" data-reveal>
+              <div class="team-card__avatar team-card__avatar--3">SL</div>
+              <h3 class="team-card__name">Dr. Sophia Lin</h3>
+              <p class="team-card__role">Director of Data Science</p>
+              <p class="team-card__bio">
+                PhD in Computational Biology (Stanford). Expert in AI/ML
+                applications for drug discovery, genomics, and clinical data.
+              </p>
+              <div class="team-card__tags">
+                <span class="tag">AI & ML</span>
+                <span class="tag">Bioinformatics</span>
+              </div>
+            </div>
+            <div class="team-card" data-reveal>
+              <div class="team-card__avatar team-card__avatar--4">MO</div>
+              <h3 class="team-card__name">Dr. Marcus Obi</h3>
+              <p class="team-card__role">Regulatory Affairs Lead</p>
+              <p class="team-card__bio">
+                PhD in Pharmacology (Johns Hopkins). 15 years guiding FDA and EMA
+                submissions for novel therapeutics and medical devices.
+              </p>
+              <div class="team-card__tags">
+                <span class="tag">FDA</span>
+                <span class="tag">EMA</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== PROCESS ========== -->
+      <section class="section process" id="process">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">How We Work</span>
+            <h2 class="section__title">Our Engagement Process</h2>
+            <p class="section__subtitle">
+              A transparent, structured approach that keeps you informed at every stage.
+            </p>
+          </div>
+          <div class="process__steps">
+            <div class="process-step" data-reveal>
+              <div class="process-step__number">01</div>
+              <div class="process-step__body">
+                <h3 class="process-step__title">Discovery Call</h3>
+                <p class="process-step__text">
+                  We begin with a complimentary 60-minute discovery call to understand
+                  your challenge, objectives, and constraints.
+                </p>
+              </div>
+            </div>
+            <div class="process-step" data-reveal>
+              <div class="process-step__number">02</div>
+              <div class="process-step__body">
+                <h3 class="process-step__title">Proposal & Scoping</h3>
+                <p class="process-step__text">
+                  We deliver a detailed proposal covering methodology, team composition,
+                  timeline, and transparent pricing.
+                </p>
+              </div>
+            </div>
+            <div class="process-step" data-reveal>
+              <div class="process-step__number">03</div>
+              <div class="process-step__body">
+                <h3 class="process-step__title">Research & Analysis</h3>
+                <p class="process-step__text">
+                  Our experts conduct rigorous investigation, literature review, data
+                  analysis, and modelling tailored to your project.
+                </p>
+              </div>
+            </div>
+            <div class="process-step" data-reveal>
+              <div class="process-step__number">04</div>
+              <div class="process-step__body">
+                <h3 class="process-step__title">Delivery & Support</h3>
+                <p class="process-step__text">
+                  We present clear, actionable findings and provide ongoing support
+                  during the implementation of our recommendations.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== TESTIMONIALS ========== -->
+      <section class="section testimonials" id="testimonials">
+        <div class="container">
+          <div class="section__header">
+            <span class="section__tag">Client Stories</span>
+            <h2 class="section__title">What Our Clients Say</h2>
+          </div>
+          <div class="testimonials__slider">
+            <div class="testimonials__track" id="testimonials-track">
+              <blockquote class="testimonial">
+                <p class="testimonial__quote">
+                  "Scivantis transformed our approach to clinical trial design. Their
+                  biostatistics team identified efficiencies that reduced our trial
+                  duration by 18%. Exceptional expertise."
+                </p>
+                <footer class="testimonial__footer">
+                  <div class="testimonial__avatar">CK</div>
+                  <div>
+                    <cite class="testimonial__author">Dr. Clara Kim</cite>
+                    <span class="testimonial__org">VP Clinical Development, PharmaVance</span>
+                  </div>
+                </footer>
+              </blockquote>
+              <blockquote class="testimonial">
+                <p class="testimonial__quote">
+                  "The environmental impact assessment delivered by the Scivantis team
+                  was the most thorough we have ever received. It helped us secure
+                  regulatory approval six months ahead of schedule."
+                </p>
+                <footer class="testimonial__footer">
+                  <div class="testimonial__avatar">BT</div>
+                  <div>
+                    <cite class="testimonial__author">Ben Torres</cite>
+                    <span class="testimonial__org">Chief Sustainability Officer, EnergyNova</span>
+                  </div>
+                </footer>
+              </blockquote>
+              <blockquote class="testimonial">
+                <p class="testimonial__quote">
+                  "Their data science team built a genomics pipeline that cut our
+                  analysis time from weeks to hours. Scivantis doesn't just consult —
+                  they become genuine partners in your success."
+                </p>
+                <footer class="testimonial__footer">
+                  <div class="testimonial__avatar">AW</div>
+                  <div>
+                    <cite class="testimonial__author">Dr. Amara Wilson</cite>
+                    <span class="testimonial__org">Head of Genomics, BioDiscovery Labs</span>
+                  </div>
+                </footer>
+              </blockquote>
+            </div>
+            <div class="testimonials__controls">
+              <button class="testimonials__btn" id="prev-btn" aria-label="Previous testimonial">&#8592;</button>
+              <div class="testimonials__dots" id="testimonial-dots"></div>
+              <button class="testimonials__btn" id="next-btn" aria-label="Next testimonial">&#8594;</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ========== CONTACT ========== -->
+      <section class="section contact" id="contact">
+        <div class="container contact__inner">
+          <div class="contact__info" data-reveal>
+            <span class="section__tag">Get In Touch</span>
+            <h2 class="section__title">Ready to Start?</h2>
+            <p class="contact__text">
+              Whether you have a well-defined project or are still scoping your needs,
+              we would love to talk. Fill in the form and a member of our team will
+              respond within one business day.
+            </p>
+            <ul class="contact__details">
+              <li>
+                <span class="contact__icon">📍</span>
+                <span>123 Science Park, Cambridge, CB1 2AB, UK</span>
+              </li>
+              <li>
+                <span class="contact__icon">✉️</span>
+                <a href="mailto:hello@scivantis.com">hello@scivantis.com</a>
+              </li>
+              <li>
+                <span class="contact__icon">📞</span>
+                <a href="tel:+441234567890">+44 (0) 1234 567 890</a>
+              </li>
+            </ul>
+          </div>
+          <form class="contact__form" id="contact-form" novalidate data-reveal>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name" class="form__label">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="name" name="name" class="form__input" placeholder="Jane Smith" required />
+                <span class="form__error" id="name-error"></span>
+              </div>
+              <div class="form__group">
+                <label for="email" class="form__label">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="email" name="email" class="form__input" placeholder="jane@company.com" required />
+                <span class="form__error" id="email-error"></span>
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="company" class="form__label">Company / Organisation</label>
+              <input type="text" id="company" name="company" class="form__input" placeholder="Acme Corp" />
+            </div>
+            <div class="form__group">
+              <label for="service" class="form__label">Area of Interest <span aria-hidden="true">*</span></label>
+              <select id="service" name="service" class="form__input form__select" required>
+                <option value="" disabled selected>Select a service…</option>
+                <option value="life-sciences">Life Sciences</option>
+                <option value="environmental">Environmental Science</option>
+                <option value="data-analytics">Data Analytics & AI</option>
+                <option value="regulatory">Regulatory Affairs</option>
+                <option value="materials">Materials Science</option>
+                <option value="genomics">Genomics & Bioinformatics</option>
+                <option value="other">Other</option>
+              </select>
+              <span class="form__error" id="service-error"></span>
+            </div>
+            <div class="form__group">
+              <label for="message" class="form__label">Tell us about your project <span aria-hidden="true">*</span></label>
+              <textarea id="message" name="message" class="form__input form__textarea" rows="5" placeholder="Briefly describe your project, goals, and timeline…" required></textarea>
+              <span class="form__error" id="message-error"></span>
+            </div>
+            <button type="submit" class="btn btn--primary btn--full" id="submit-btn">
+              Send Message
+            </button>
+            <p class="form__success" id="form-success" hidden>
+              ✅ Thank you! We will be in touch within one business day.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__brand">
+          <a href="#hero" class="nav__logo">
+            <span class="nav__logo-icon">⚗</span>
+            <span class="nav__logo-text">Scivantis</span>
+          </a>
+          <p class="footer__tagline">
+            Scientific excellence in consultancy.
+          </p>
+        </div>
+        <nav class="footer__nav" aria-label="Footer navigation">
+          <div class="footer__col">
+            <h4 class="footer__col-title">Services</h4>
+            <ul>
+              <li><a href="#services">Life Sciences</a></li>
+              <li><a href="#services">Environmental Science</a></li>
+              <li><a href="#services">Data Analytics & AI</a></li>
+              <li><a href="#services">Regulatory Affairs</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Company</h4>
+            <ul>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#team">Our Team</a></li>
+              <li><a href="#process">Our Process</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h4 class="footer__col-title">Connect</h4>
+            <ul>
+              <li><a href="https://linkedin.com" target="_blank" rel="noopener">LinkedIn</a></li>
+              <li><a href="https://twitter.com" target="_blank" rel="noopener">Twitter / X</a></li>
+              <li><a href="mailto:hello@scivantis.com">Email Us</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div class="footer__bottom">
+        <p>© <span id="footer-year"></span> Scivantis Ltd. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
